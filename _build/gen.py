@@ -38,14 +38,15 @@ HEADER = '''<a href="#main" style="position:absolute;left:-9999px" onfocus="this
         <a href="/#services" class="nav-link" aria-haspopup="true">Услуги</a>
         <div class="nav-mega" role="menu">
           <div class="mega-grid">
-            <a href="/services/ai-video/" class="mega-item"><span class="mega-ico">🎬</span><span class="mega-text"><span class="mega-title">AI / 3D генерация видео</span><span class="mega-desc">Higgsfield, Sora, Runway, Kling — ролики под ключ</span></span></a>
             <a href="/services/ai-agents/" class="mega-item"><span class="mega-ico">🤖</span><span class="mega-text"><span class="mega-title">AI-агенты и чат-боты</span><span class="mega-desc">Telegram, WhatsApp, сайт — GPT, Claude, YandexGPT</span></span></a>
             <a href="/services/voice-bots/" class="mega-item"><span class="mega-ico">🎙️</span><span class="mega-text"><span class="mega-title">Голосовые AI-боты и IVR</span><span class="mega-desc">SIP/VoIP, неотличимы от живого оператора</span></span></a>
             <a href="/services/web/" class="mega-item"><span class="mega-ico">🌐</span><span class="mega-text"><span class="mega-title">Разработка сайтов</span><span class="mega-desc">Лендинги, корпоративные, e-com, личные кабинеты</span></span></a>
+            <a href="/services/web-apps/" class="mega-item"><span class="mega-ico">🧩</span><span class="mega-text"><span class="mega-title">Веб- и мобильные приложения</span><span class="mega-desc">SaaS, кабинеты, дашборды, B2B-инструменты</span></span></a>
             <a href="/services/seo/" class="mega-item"><span class="mega-ico">📈</span><span class="mega-text"><span class="mega-title">SEO и продвижение</span><span class="mega-desc">Топ Яндекс и Google, Дзен, контент-стратегия</span></span></a>
             <a href="/services/ads/" class="mega-item"><span class="mega-ico">🎯</span><span class="mega-text"><span class="mega-title">Контекстная реклама</span><span class="mega-desc">Яндекс Директ, Google Ads — снижаем CPL</span></span></a>
+            <a href="/services/ai-video/" class="mega-item"><span class="mega-ico">🎬</span><span class="mega-text"><span class="mega-title">AI / 3D генерация видео</span><span class="mega-desc">Higgsfield, Sora, Runway, Kling — ролики под ключ</span></span></a>
             <a href="/services/automation/" class="mega-item"><span class="mega-ico">⚡</span><span class="mega-text"><span class="mega-title">Автоматизация процессов</span><span class="mega-desc">Apps Script, API, Make / Zapier, RPA</span></span></a>
-            <a href="/services/crm-bi/" class="mega-item"><span class="mega-ico">🔗</span><span class="mega-text"><span class="mega-title">CRM и BI-интеграции</span><span class="mega-desc">AmoCRM, Bitrix24, 1С, дашборды в реальном времени</span></span></a>
+            <a href="/services/crm-bi/" class="mega-item"><span class="mega-ico">🗄️</span><span class="mega-text"><span class="mega-title">Кастомные CRM и BI</span><span class="mega-desc">CRM с нуля под ваши процессы или AmoCRM/Bitrix</span></span></a>
             <a href="/services/training/" class="mega-item"><span class="mega-ico">🧠</span><span class="mega-text"><span class="mega-title">AI-обучение персонала</span><span class="mega-desc">Симулятор переговоров и тренажёр продаж</span></span></a>
             <a href="/services/smm/" class="mega-item"><span class="mega-ico">📱</span><span class="mega-text"><span class="mega-title">SMM и AI-контент</span><span class="mega-desc">Ведение соцсетей, AI-генерация текста и медиа</span></span></a>
           </div>
@@ -77,14 +78,15 @@ HEADER = '''<a href="#main" style="position:absolute;left:-9999px" onfocus="this
   </div>
   <div class="drawer-section">
     <div class="drawer-title">Услуги</div>
-    <a href="/services/ai-video/" class="drawer-link">AI / 3D генерация видео</a>
     <a href="/services/ai-agents/" class="drawer-link">AI-агенты и чат-боты</a>
     <a href="/services/voice-bots/" class="drawer-link">Голосовые AI-боты</a>
     <a href="/services/web/" class="drawer-link">Разработка сайтов</a>
+    <a href="/services/web-apps/" class="drawer-link">Веб- и мобильные приложения</a>
     <a href="/services/seo/" class="drawer-link">SEO-продвижение</a>
     <a href="/services/ads/" class="drawer-link">Контекстная реклама</a>
+    <a href="/services/ai-video/" class="drawer-link">AI / 3D генерация видео</a>
     <a href="/services/automation/" class="drawer-link">Автоматизация процессов</a>
-    <a href="/services/crm-bi/" class="drawer-link">CRM и BI-интеграции</a>
+    <a href="/services/crm-bi/" class="drawer-link">Кастомные CRM и BI</a>
     <a href="/services/training/" class="drawer-link">AI-обучение персонала</a>
     <a href="/services/smm/" class="drawer-link">SMM и контент</a>
   </div>
@@ -119,10 +121,10 @@ FOOTER = '''<footer class="site-footer">
       <div class="foot-col">
         <h4>Услуги</h4>
         <ul>
-          <li><a href="/services/ai-video/">AI / 3D-видео</a></li>
           <li><a href="/services/ai-agents/">AI-агенты и чат-боты</a></li>
           <li><a href="/services/voice-bots/">Голосовые боты</a></li>
           <li><a href="/services/web/">Разработка сайтов</a></li>
+          <li><a href="/services/web-apps/">Веб-приложения и SaaS</a></li>
           <li><a href="/services/seo/">SEO-продвижение</a></li>
           <li><a href="/services/ads/">Контекстная реклама</a></li>
         </ul>
@@ -130,8 +132,9 @@ FOOTER = '''<footer class="site-footer">
       <div class="foot-col">
         <h4>Ещё услуги</h4>
         <ul>
+          <li><a href="/services/ai-video/">AI / 3D-видео</a></li>
           <li><a href="/services/automation/">Автоматизация</a></li>
-          <li><a href="/services/crm-bi/">CRM и BI</a></li>
+          <li><a href="/services/crm-bi/">Кастомные CRM и BI</a></li>
           <li><a href="/services/training/">AI-обучение</a></li>
           <li><a href="/services/smm/">SMM и контент</a></li>
         </ul>
@@ -193,8 +196,9 @@ CTA_BLOCK = '''<section class="section">
 
 CRUMB_LABELS = {
     "services":"Услуги","ai-video":"AI / 3D-видео","ai-agents":"AI-агенты","voice-bots":"Голосовые боты",
-    "web":"Разработка сайтов","seo":"SEO","ads":"Реклама","automation":"Автоматизация",
-    "crm-bi":"CRM и BI","training":"AI-обучение","smm":"SMM",
+    "web":"Разработка сайтов","web-apps":"Веб- и мобильные приложения",
+    "seo":"SEO","ads":"Реклама","automation":"Автоматизация",
+    "crm-bi":"Кастомные CRM и BI","training":"AI-обучение","smm":"SMM",
     "cases":"Кейсы","industries":"Отрасли","about":"О компании","contacts":"Контакты",
     "careers":"Вакансии","legal":"Правовая информация","privacy":"Политика данных","terms":"Соглашение",
 }
@@ -515,30 +519,31 @@ SERVICES = [
     },
     {
         "slug": "crm-bi",
-        "title": "Внедрение CRM и BI-аналитики: AmoCRM, Bitrix24, 1С | FutureFlow",
-        "h1": "CRM и BI-интеграции",
-        "tagline": "AmoCRM · Bitrix24 · 1С · ETL · Dashboards",
-        "description": "Внедрение CRM и настройка BI-аналитики под ключ. AmoCRM, Bitrix24, 1С, Google Sheets, Notion. Дашборды в реальном времени, сквозная аналитика, ETL, прогнозы.",
-        "keywords": "внедрение crm, amocrm, bitrix24, 1с интеграция, bi аналитика, сквозная аналитика, дашборд, etl, datalens, power bi, tableau",
-        "lead": "Внедряем и кастомизируем CRM, связываем их с источниками данных, строим BI-дашборды, по которым реально принимают решения. От «как у всех» к «как нам нужно для нашей бизнес-модели».",
+        "title": "Кастомная CRM с нуля и BI-аналитика под бизнес | FutureFlow",
+        "h1": "Кастомные CRM и BI-системы",
+        "tagline": "CRM с нуля · AmoCRM · Bitrix24 · 1С · ETL · Dashboards",
+        "description": "Разработка кастомных CRM с нуля под уникальные бизнес-процессы. Если AmoCRM или Bitrix24 не подходят — делаем свою. Плюс внедрение готовых CRM, BI-аналитика и интеграции.",
+        "keywords": "кастомная crm, crm с нуля, разработка crm, своя crm система, amocrm, bitrix24, 1с интеграция, bi аналитика, сквозная аналитика, дашборд, etl, datalens, power bi, tableau",
+        "lead": "Готовые AmoCRM и Bitrix24 хороши для стандартных процессов, но почти всегда «прокрустово ложе» для уникального бизнеса. Делаем кастомные CRM с нуля — ровно под ваши воронки, роли, документы и интеграции. Без лишних модулей, без подписок за пользователя, без ограничений платформы.",
         "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_20260518_075325_9420818d-e477-4eb5-81da-d336af58f1af.png",
         "includes": [
-            ("📞 Внедрение CRM", "AmoCRM, Bitrix24 или собственный кастом. Воронки, поля, права доступа, виджеты."),
-            ("🔌 Интеграции", "Сайт, лендинги, телефония, email, маркетплейсы, 1С, мессенджеры — все источники лидов в одной CRM."),
-            ("📊 BI-дашборды", "DataLens, Power BI, Tableau, Metabase. Дашборды для руководства, продажников, маркетинга."),
-            ("🔁 ETL и хранилище", "ClickHouse / PostgreSQL / BigQuery + Airflow / dbt — собираем данные из десятков систем в одно место."),
-            ("📈 Сквозная аналитика", "Reklama → клик → лид → сделка → LTV. Реальный ROI каждого канала и креатива."),
-            ("🤖 AI-аналитика", "Предсказание оттока, рекомендации товаров, скоринг лидов, выявление аномалий."),
-            ("👥 Обучение команды", "Документация, видео-инструкции, очное обучение, поддержка после внедрения."),
+            ("🏗️ Кастомная CRM с нуля", "Своя CRM под уникальные бизнес-процессы: отраслевые сущности, нестандартные воронки, сложный документооборот, специфика регуляторики. Когда AmoCRM/Bitrix не подходят — делаем свою."),
+            ("📞 Внедрение готовых CRM", "AmoCRM, Bitrix24, 1С — если ваши процессы укладываются в их логику. Настройка воронок, полей, прав, виджетов, интеграций."),
+            ("🔌 Интеграции и API", "Сайт, лендинги, телефония, email, маркетплейсы, 1С, мессенджеры — все источники лидов в одной системе. Двунаправленный обмен с любым стеком."),
+            ("📊 BI-дашборды", "DataLens, Power BI, Tableau, Metabase, кастомные на React + D3. Дашборды для собственника, отдела продаж, маркетинга, операций."),
+            ("🔁 ETL и хранилище данных", "ClickHouse / PostgreSQL / BigQuery + Airflow / dbt — собираем данные из десятков систем в единое хранилище для аналитики."),
+            ("📈 Сквозная аналитика", "Реклама → клик → лид → сделка → LTV. Реальный ROI каждого канала, кампании и креатива."),
+            ("🤖 AI внутри CRM", "Скоринг лидов, предсказание оттока, рекомендации, автозаполнение карточек, AI-агент-ассистент менеджера."),
         ],
-        "tech": ["AmoCRM","Bitrix24","1С","HubSpot","Notion","Google Sheets","Yandex DataLens","Power BI","Tableau","Metabase","ClickHouse","PostgreSQL","BigQuery","Airflow","dbt"],
+        "tech": ["Кастомная разработка","React / Next.js","Node.js / NestJS","Python / Django","PostgreSQL","ClickHouse","AmoCRM","Bitrix24","1С","HubSpot","Notion","Google Sheets","Yandex DataLens","Power BI","Tableau","Metabase","BigQuery","Airflow","dbt"],
         "faq": [
-            ("Какую CRM выбрать?", "AmoCRM — для продажников, кому важна простота и фокус на сделках. Bitrix24 — для компаний, где CRM + задачи + документы + связь в одном окне. 1С — если уже есть. Кастом — если уникальная бизнес-логика."),
-            ("Сколько стоит внедрение?", "Базовое (CRM + 2-3 интеграции + обучение) — от 120 000 ₽. Среднее (CRM + BI + телефония + аналитика) — от 250 000 ₽. Сложное с кастомом и ETL — от 600 000 ₽."),
-            ("Уже есть CRM, но в ней бардак. Что делать?", "Делаем аудит, чистим дубли, перепроектируем воронки и поля. Часто после такой «чистки» CRM начинает работать как новая, без замены."),
-            ("Как часто обновляются данные на дашборде?", "Реальное время (для критичных метрик) или раз в 5–15 минут (для остальных). Зависит от системы-источника и нагрузки."),
-            ("Будет ли всё работать после ухода ваших специалистов?", "Да. Документируем всё, обучаем команду, передаём пароли и доступы. Готовы оставаться на саппорте, но не привязываем."),
-            ("Сквозная аналитика — это сложно/дорого?", "Нет, если делать прагматично. Минимальный сетап с одной CRM + Метрикой + парой источников — за 2 недели, под 80 000 ₽."),
+            ("Когда нужна кастомная CRM, а не AmoCRM/Bitrix?", "Когда ваш бизнес-процесс не укладывается в линейную воронку «лид → сделка». Например: многошаговые согласования с подрядчиками, сложные тарифные модели, отраслевые сущности (объекты, договоры долевого участия, медкарты, контракты в логистике), нестандартный документооборот, особые роли и права. AmoCRM/Bitrix дают 60-70% покрытия, но в эти 30% уходит вся реальная сложность — и она ломает универсальные платформы."),
+            ("Чем кастомная CRM лучше готовой?", "Точное соответствие процессам (нет «прокрустова ложа»). Нет ежемесячной платы за пользователя — экономия на 50+ людях исчисляется миллионами в год. Полный контроль над данными и кодом. Любые интеграции без ограничений API. Можно встроить AI-агентов, кастомную BI и автоматизации без костылей."),
+            ("Сколько стоит кастомная CRM?", "MVP кастомной CRM — от 500 000 ₽. Среднего размера система (5-10 сущностей, 3-5 ролей, мобилка) — от 1 500 000 ₽. Большая корпоративная — от 3 000 000 ₽. Дальше — поддержка и развитие. Считается отдельно после брифа и архитектурного эскиза."),
+            ("Сколько стоит внедрение готовой CRM?", "Базовое (CRM + 2-3 интеграции + обучение) — от 120 000 ₽. Среднее (CRM + BI + телефония + аналитика) — от 250 000 ₽. Сложное с кастомом виджетов и ETL — от 600 000 ₽."),
+            ("Сколько занимает разработка CRM с нуля?", "MVP — 8-12 недель. Прод-релиз — 4-6 месяцев. Дальше — итерационное развитие. Часть процессов можем запускать поэтапно, чтобы команда начинала работать раньше."),
+            ("Уже есть CRM, но в ней бардак. Что делать?", "Делаем аудит, чистим дубли, перепроектируем воронки и поля. Часто после такой «чистки» CRM начинает работать как новая, без замены. Если упирается в фундамент платформы — обсуждаем миграцию на кастом."),
+            ("Будет ли всё работать после ухода ваших специалистов?", "Да. Документируем всё, обучаем команду, передаём пароли, доступы и репозитории. Готовы оставаться на саппорте, но не привязываем — код и инфраструктура полностью ваши."),
         ]
     },
     {
@@ -567,6 +572,35 @@ SERVICES = [
             ("Сколько занимает внедрение?", "Готовый MVP — 2–3 недели. Полная кастомизация под ваши скрипты и базу — 4–6 недель."),
             ("Можно подключить к нашей LMS?", "Да. SCORM, xAPI, REST API, виджет — интегрируемся с iSpring, Mirapolis, Moodle, GetCourse, Talent Rocks."),
             ("А если у нас узкая ниша — медицина, страхование?", "Тренируем модель на ваших скриптах и базе возражений. Через 2 недели бот говорит как реальный пациент / клиент вашего профиля."),
+        ]
+    },
+    {
+        "slug": "web-apps",
+        "title": "Разработка веб-приложений и SaaS под ключ | FutureFlow",
+        "h1": "Веб- и мобильные приложения",
+        "tagline": "React · Next.js · Node · Python · React Native · Flutter",
+        "description": "Разработка веб-приложений, SaaS, личных кабинетов, B2B-инструментов и мобильных приложений. React, Next.js, Node.js, Python, Flutter, React Native. Под ключ с архитектурой, дизайном и поддержкой.",
+        "keywords": "разработка веб приложений, saas разработка, личный кабинет, b2b приложение, разработка мобильного приложения, react разработка, node.js, flutter, react native, fullstack",
+        "lead": "Делаем веб-приложения, SaaS-сервисы, личные кабинеты, B2B-инструменты и мобильные приложения. От архитектуры и UX до прод-релиза, поддержки и развития. Под высокую нагрузку, под отраслевые требования, под мультитенантность.",
+        "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_20260518_084836_e249076a-8ede-48b8-a9d6-42dc6591f764.png",
+        "includes": [
+            ("🔐 Личные кабинеты и порталы", "B2B/B2C-кабинеты с авторизацией, ролевой моделью, биллингом, документами, аналитикой и интеграциями с вашими системами."),
+            ("📊 Дашборды и BI-инструменты", "Кастомные внутренние интерфейсы для управленческой отчётности, мониторинга процессов и оперативной аналитики."),
+            ("☁️ SaaS-продукты", "Мультитенантная архитектура, биллинг, API, white-label, аналитика использования, готовность к масштабированию."),
+            ("🔌 API и микросервисы", "REST и GraphQL, OpenAPI-документация, асинхронные очереди, кеширование, версионирование."),
+            ("📱 Мобильные приложения", "Кросс-платформа на React Native и Flutter, нативная разработка iOS/Android по требованию, PWA-альтернатива."),
+            ("🤖 AI внутри продукта", "Встраиваем GPT/Claude/YandexGPT агентов, RAG по вашей базе, обработку документов, генерацию текстов и медиа."),
+            ("🛡️ Безопасность и compliance", "OAuth 2.0, JWT, шифрование, аудит, разграничение прав, ФСТЭК-сертификация по запросу, ISO 27001 практики."),
+        ],
+        "tech": ["React","Next.js","Vue / Nuxt","Svelte","Node.js / NestJS","Python / FastAPI / Django","Go","Java / Spring","React Native","Flutter","Swift","Kotlin","PostgreSQL","MongoDB","Redis","ClickHouse","Docker","Kubernetes","WebSocket","GraphQL","OAuth 2.0","JWT"],
+        "faq": [
+            ("Чем веб-приложение отличается от сайта?", "Сайт — это в основном контент и презентация (лендинг, корпоративный, блог). Веб-приложение — это интерфейс к бизнес-логике: пользователи логинятся, видят данные, выполняют действия (личные кабинеты, дашборды, SaaS, инструменты команды). Принципиально разная архитектура, безопасность, нагрузка и сроки."),
+            ("Сколько стоит?", "MVP веб-приложения / личного кабинета — от 400 000 ₽. Средний продукт с интеграциями — от 1 000 000 ₽. Полноценный SaaS с биллингом, мультитенантностью и аналитикой — от 2 500 000 ₽. Точная смета — после брифа и архитектурного эскиза."),
+            ("Сколько занимает разработка?", "MVP — 6–10 недель. Прод-релиз — 3–6 месяцев. Дальше — итерации по 2-недельным спринтам. Сроки фиксируем по этапам в договоре."),
+            ("Можно ли сделать на no-code (Tilda / Webflow / Bubble)?", "Для прототипа — да. Для прод-продукта с реальной нагрузкой, ролями и интеграциями — почти никогда. Кастомная разработка обходится дороже на старте, но в 5-10 раз дешевле в эксплуатации на горизонте 1-2 лет."),
+            ("Кому принадлежит код и инфраструктура?", "Вам. Передаём репозиторий, документацию, доступы. Можем хостить у нас по подписке или передать вашему DevOps. Без вендор-лока."),
+            ("Делаете мобильные приложения?", "Да. Основной стек — React Native и Flutter (один код для iOS и Android). Нативную разработку Swift/Kotlin предлагаем для приложений с особыми требованиями к производительности (камера, AR, игры)."),
+            ("Поддерживаете готовый продукт?", "Да. Подписка от 60 000 ₽/мес: исправления, обновления зависимостей и моделей, мониторинг, новые фичи. SLA на критичные баги — 4 часа."),
         ]
     },
     {
@@ -941,9 +975,8 @@ about_body = f'''
       <p>Каждый проект ведёт продакт + 1–3 специалиста (AI-инженер, разработчик, дизайнер, копирайтер — по необходимости). Клиент общается напрямую с продактом и в общем чате в Telegram. Никаких 5 уровней менеджмента и «отписок аккаунт-менеджера».</p>
       <p>Технологический стек подбираем под задачу — от no-code (Tilda, Make, n8n) до кастомной разработки на React/Node/Python с self-hosted LLM.</p>
 
-      <h2>Юридическая чистота и работа с данными</h2>
-      <p>Работаем как ИП Зайдель Адриан Патрик. Договоры с обеими сторонами, акты выполненных работ, счета — для любой системы налогообложения у клиента. NDA подписываем по запросу до начала работ.</p>
-      <p>Сайт <strong>futureflow.ru</strong> не собирает персональные данные пользователей через обязательные формы — для связи используются мессенджеры, e-mail и телефон, которые посетитель сам выбирает. Поэтому ИП не подлежит регистрации в Реестре операторов персональных данных Роскомнадзора (152-ФЗ). Подробнее — в <a href="/legal/privacy/">Политике обработки данных</a>.</p>
+      <h2>Юридический статус и документы</h2>
+      <p>Работаем как ИП Зайдель Адриан Патрик. Договоры с обеими сторонами, акты выполненных работ, счета — для любой системы налогообложения у клиента. NDA подписываем по запросу до начала работ. <a href="/legal/privacy/">Политика обработки данных</a> и <a href="/legal/terms/">Пользовательское соглашение</a>.</p>
 
       <h2>Контакты</h2>
       <p>ИП Зайдель Адриан Патрик<br>
@@ -1342,6 +1375,7 @@ URLS = [
     ("/services/ai-agents/", 0.9, "monthly"),
     ("/services/voice-bots/", 0.9, "monthly"),
     ("/services/web/", 0.9, "monthly"),
+    ("/services/web-apps/", 0.9, "monthly"),
     ("/services/seo/", 0.9, "monthly"),
     ("/services/ads/", 0.9, "monthly"),
     ("/services/automation/", 0.9, "monthly"),
