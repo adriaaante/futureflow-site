@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /_backup/
+Disallow: /_build/
+
+Sitemap: https://futureflow.ru/sitemap.xml
+Host: https://futureflow.ru
