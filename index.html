@@ -212,7 +212,13 @@
 
   <section class="hero">
     <div class="hero-bg">
-      <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_20260518_075051_5ec2fe45-d71d-4e2e-87b9-bc79147401dc.png" alt="Абстрактный голографический фон нейросети" loading="eager" fetchpriority="high">
+      <video class="hero-video active" data-theme="dark" autoplay muted loop playsinline preload="auto" poster="https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_20260518_075051_5ec2fe45-d71d-4e2e-87b9-bc79147401dc.png" aria-hidden="true">
+        <source src="https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_video_2f296828-3739-45dc-aa3d-07d50b444696.mp4" type="video/mp4">
+      </video>
+      <video class="hero-video" data-theme="light" muted loop playsinline preload="none" poster="https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_20260518_075054_1f0b483c-742b-4775-bb5e-6ec3867df3fa.png" aria-hidden="true">
+        <source src="https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_video_29bb7ee6-3395-4ab4-9681-bcc317742c0f.mp4" type="video/mp4">
+      </video>
+      <img class="hero-poster" src="https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_20260518_075051_5ec2fe45-d71d-4e2e-87b9-bc79147401dc.png" alt="Абстрактный голографический фон нейросети" loading="eager" fetchpriority="high">
       <div class="hero-veil"></div>
       <div class="hero-blobs"></div>
     </div>
@@ -222,8 +228,8 @@
         <h1>Цифровое будущее вашего бизнеса.<br><span class="grad-text">Уже сегодня.</span></h1>
         <p class="lead">FutureFlow — единая команда полного цикла. 3D и AI генерация видео, агенты и голосовые боты, сайты, SEO, реклама, автоматизация процессов, CRM и BI. Делаем сложное — простым, быстрым и измеримым.</p>
         <div class="hero-ctas">
-          <a href="https://t.me/FutureFlowInc" target="_blank" rel="noopener" class="btn btn-primary btn-arrow">Обсудить задачу</a>
-          <a href="#services" class="btn btn-ghost">Все услуги</a>
+          <a href="https://t.me/FutureFlowInc" target="_blank" rel="noopener" class="btn btn-primary btn-arrow magnet">Обсудить задачу</a>
+          <a href="#services" class="btn btn-ghost magnet">Все услуги</a>
         </div>
         <div class="hero-stats">
           <div class="hero-stat"><div class="num">10+</div><div class="lbl">направлений<br>под ключ</div></div>
@@ -465,6 +471,29 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="container">
+      <div class="section-head rv" style="text-align:center;align-items:center;margin-left:auto;margin-right:auto">
+        <span class="eyebrow">AI-видео в действии</span>
+        <h2>Как выглядит <span class="grad-text">3D-генерация</span> сегодня</h2>
+        <p class="lead" style="margin-left:auto;margin-right:auto">Этот фон — не картинка. Это сгенерированный нейросетью 8-секундный кинематографичный loop. То же самое мы делаем для ваших товаров, услуг и брендов.</p>
+      </div>
+      <div class="showcase rv">
+        <video autoplay muted loop playsinline preload="metadata" poster="https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_20260518_075059_a8c2f865-d746-429f-89c8-b20f3947ae8f.png">
+          <source src="https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_video_2f296828-3739-45dc-aa3d-07d50b444696.mp4" type="video/mp4">
+        </video>
+        <div class="showcase-caption">
+          <div>
+            <span class="showcase-tag">AI · Higgsfield · Seedance 2.0</span>
+            <h3 style="margin-top:14px">Сценарий → промпт → ролик за минуты, а не недели</h3>
+            <p>Higgsfield, Sora, Runway, Kling, Veo и наша обвязка для автоматического монтажа. Один и тот же кадр в разных форматах под все площадки.</p>
+          </div>
+          <a href="/services/ai-video/" class="btn btn-primary btn-arrow magnet">Заказать ролик</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section" style="background:var(--bg-elev-1);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
     <div class="container">
       <div class="section-head rv">
@@ -510,14 +539,41 @@
         <p class="lead">Российские и международные платформы — подбираем под задачу, бюджет и требования инфобеза.</p>
       </div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px">
-        <div class="card tech-group rv"><h4>AI / LLM и генерация</h4><div class="pill-wrap"><span class="pill">OpenAI GPT</span><span class="pill">Claude (Anthropic)</span><span class="pill">YandexGPT</span><span class="pill">GigaChat</span><span class="pill">Gemini</span><span class="pill">Llama</span><span class="pill">Mistral</span></div></div>
-        <div class="card tech-group rv"><h4>AI-видео и медиа</h4><div class="pill-wrap"><span class="pill">Higgsfield</span><span class="pill">Sora</span><span class="pill">Runway</span><span class="pill">Kling</span><span class="pill">Veo</span><span class="pill">Nano Banana</span><span class="pill">Midjourney</span><span class="pill">Flux</span></div></div>
-        <div class="card tech-group rv"><h4>Голос и телефония</h4><div class="pill-wrap"><span class="pill">SpeechKit</span><span class="pill">Whisper</span><span class="pill">ElevenLabs</span><span class="pill">Google TTS</span><span class="pill">SIP / VoIP</span><span class="pill">Mango ВАТС</span><span class="pill">Asterisk</span></div></div>
-        <div class="card tech-group rv"><h4>Облако и хостинг</h4><div class="pill-wrap"><span class="pill">Google Cloud</span><span class="pill">Yandex Cloud</span><span class="pill">Firebase</span><span class="pill">Cloud Run</span><span class="pill">VK Cloud</span><span class="pill">Selectel</span><span class="pill">Reg.ru</span></div></div>
-        <div class="card tech-group rv"><h4>Сайты и фронтенд</h4><div class="pill-wrap"><span class="pill">React / Next.js</span><span class="pill">Vue.js</span><span class="pill">Node.js</span><span class="pill">WordPress</span><span class="pill">Tilda</span><span class="pill">Webflow</span><span class="pill">1С-Битрикс</span></div></div>
-        <div class="card tech-group rv"><h4>CRM, BI и интеграции</h4><div class="pill-wrap"><span class="pill">AmoCRM</span><span class="pill">Bitrix24</span><span class="pill">1С</span><span class="pill">Google Sheets</span><span class="pill">Apps Script</span><span class="pill">Make</span><span class="pill">Zapier</span><span class="pill">n8n</span></div></div>
-        <div class="card tech-group rv"><h4>Мессенджеры</h4><div class="pill-wrap"><span class="pill">Telegram Bot API</span><span class="pill">WhatsApp Business</span><span class="pill">ВКонтакте</span><span class="pill">Avito</span><span class="pill">Viber</span></div></div>
-        <div class="card tech-group rv"><h4>SEO и реклама</h4><div class="pill-wrap"><span class="pill">Яндекс Директ</span><span class="pill">Google Ads</span><span class="pill">Метрика</span><span class="pill">GA4</span><span class="pill">Дзен</span><span class="pill">Ahrefs</span><span class="pill">Screaming Frog</span></div></div>
+        <div class="card tech-group rv"><h4>AI / LLM и агенты</h4><div class="pill-wrap"><span class="pill">OpenAI GPT-5</span><span class="pill">Claude Sonnet 4.6</span><span class="pill">Claude Opus 4.7</span><span class="pill">YandexGPT</span><span class="pill">GigaChat</span><span class="pill">Gemini 2.5</span><span class="pill">Llama 4</span><span class="pill">Mistral</span><span class="pill">Qwen 3</span><span class="pill">DeepSeek</span><span class="pill">T-Pro</span><span class="pill">RuAdapt</span><span class="pill">Cotype</span></div></div>
+        <div class="card tech-group rv"><h4>AI-видео и моушн</h4><div class="pill-wrap"><span class="pill">Higgsfield</span><span class="pill">OpenAI Sora 2</span><span class="pill">Runway Gen-4</span><span class="pill">Kling 3.0</span><span class="pill">Google Veo 3</span><span class="pill">Pika 2.2</span><span class="pill">Seedance 2.0</span><span class="pill">Hailuo</span><span class="pill">Luma Dream Machine</span><span class="pill">Wan</span><span class="pill">HeyGen</span></div></div>
+        <div class="card tech-group rv"><h4>AI-изображения</h4><div class="pill-wrap"><span class="pill">Nano Banana Pro</span><span class="pill">Midjourney v7</span><span class="pill">Flux Pro</span><span class="pill">SDXL</span><span class="pill">Recraft</span><span class="pill">Ideogram</span><span class="pill">DALL·E 3</span><span class="pill">Krea</span><span class="pill">Leonardo</span></div></div>
+        <div class="card tech-group rv"><h4>Голос, TTS и STT</h4><div class="pill-wrap"><span class="pill">ElevenLabs</span><span class="pill">SpeechKit</span><span class="pill">Whisper Large v3</span><span class="pill">Google TTS</span><span class="pill">Azure Speech</span><span class="pill">XTTS</span><span class="pill">RVC</span><span class="pill">Coqui</span><span class="pill">Sber SaluteSpeech</span></div></div>
+        <div class="card tech-group rv"><h4>Телефония и SIP</h4><div class="pill-wrap"><span class="pill">Mango ВАТС</span><span class="pill">UIS</span><span class="pill">Sipuni</span><span class="pill">Asterisk</span><span class="pill">FreePBX</span><span class="pill">Twilio</span><span class="pill">Voximplant</span><span class="pill">SIP / VoIP</span><span class="pill">Genesys</span></div></div>
+        <div class="card tech-group rv"><h4>Vector DB и RAG</h4><div class="pill-wrap"><span class="pill">Pinecone</span><span class="pill">Qdrant</span><span class="pill">Weaviate</span><span class="pill">Chroma</span><span class="pill">Milvus</span><span class="pill">FAISS</span><span class="pill">pgvector</span><span class="pill">Elasticsearch</span></div></div>
+        <div class="card tech-group rv"><h4>AI-фреймворки</h4><div class="pill-wrap"><span class="pill">LangChain</span><span class="pill">LlamaIndex</span><span class="pill">LangGraph</span><span class="pill">Haystack</span><span class="pill">AutoGen</span><span class="pill">CrewAI</span><span class="pill">Anthropic Agent SDK</span><span class="pill">OpenAI Agents SDK</span><span class="pill">MCP</span></div></div>
+        <div class="card tech-group rv"><h4>Облако и хостинг</h4><div class="pill-wrap"><span class="pill">Google Cloud</span><span class="pill">Yandex Cloud</span><span class="pill">VK Cloud</span><span class="pill">Cloud.ru (Сбер)</span><span class="pill">AWS</span><span class="pill">Cloudflare</span><span class="pill">Firebase</span><span class="pill">Cloud Run</span><span class="pill">Vercel</span><span class="pill">Selectel</span><span class="pill">Reg.ru</span><span class="pill">Timeweb</span></div></div>
+        <div class="card tech-group rv"><h4>Сайты и фронтенд</h4><div class="pill-wrap"><span class="pill">React</span><span class="pill">Next.js 15</span><span class="pill">Vue 3</span><span class="pill">Nuxt</span><span class="pill">Astro</span><span class="pill">Svelte / SvelteKit</span><span class="pill">Remix</span><span class="pill">WordPress</span><span class="pill">1С-Битрикс</span><span class="pill">Tilda</span><span class="pill">Webflow</span><span class="pill">Tailwind</span><span class="pill">GSAP</span><span class="pill">Three.js</span></div></div>
+        <div class="card tech-group rv"><h4>Бэкенд и языки</h4><div class="pill-wrap"><span class="pill">Node.js / NestJS</span><span class="pill">Python / FastAPI</span><span class="pill">Go</span><span class="pill">TypeScript</span><span class="pill">Rust</span><span class="pill">Django</span><span class="pill">Laravel</span><span class="pill">Java / Spring</span></div></div>
+        <div class="card tech-group rv"><h4>Базы данных</h4><div class="pill-wrap"><span class="pill">PostgreSQL</span><span class="pill">MongoDB</span><span class="pill">Redis</span><span class="pill">ClickHouse</span><span class="pill">MySQL</span><span class="pill">BigQuery</span><span class="pill">Yandex YDB</span><span class="pill">Snowflake</span><span class="pill">Supabase</span></div></div>
+        <div class="card tech-group rv"><h4>DevOps и CI/CD</h4><div class="pill-wrap"><span class="pill">Docker</span><span class="pill">Kubernetes</span><span class="pill">GitHub Actions</span><span class="pill">GitLab CI</span><span class="pill">Terraform</span><span class="pill">Ansible</span><span class="pill">Nginx</span><span class="pill">Traefik</span><span class="pill">Grafana</span><span class="pill">Prometheus</span></div></div>
+        <div class="card tech-group rv"><h4>CRM, BI, ETL</h4><div class="pill-wrap"><span class="pill">AmoCRM</span><span class="pill">Bitrix24</span><span class="pill">1С</span><span class="pill">HubSpot</span><span class="pill">Notion</span><span class="pill">Yandex DataLens</span><span class="pill">Power BI</span><span class="pill">Tableau</span><span class="pill">Metabase</span><span class="pill">Apache Airflow</span><span class="pill">dbt</span></div></div>
+        <div class="card tech-group rv"><h4>Интеграции и автоматизация</h4><div class="pill-wrap"><span class="pill">Make (Integromat)</span><span class="pill">Zapier</span><span class="pill">n8n</span><span class="pill">Apps Script</span><span class="pill">Albato</span><span class="pill">ApiX-Drive</span><span class="pill">Power Automate</span><span class="pill">UiPath</span><span class="pill">RoboCorp</span></div></div>
+        <div class="card tech-group rv"><h4>Мессенджеры и каналы</h4><div class="pill-wrap"><span class="pill">Telegram Bot API</span><span class="pill">WhatsApp Business</span><span class="pill">ВКонтакте</span><span class="pill">Avito Messenger</span><span class="pill">Viber</span><span class="pill">Max</span><span class="pill">Одноклассники</span></div></div>
+        <div class="card tech-group rv"><h4>Платежи и фискализация</h4><div class="pill-wrap"><span class="pill">ЮKassa</span><span class="pill">Tinkoff Pay</span><span class="pill">Сбербанк Эквайринг</span><span class="pill">СБП</span><span class="pill">CloudPayments</span><span class="pill">Robokassa</span><span class="pill">Stripe</span><span class="pill">PayPal</span><span class="pill">АТОЛ Онлайн</span></div></div>
+        <div class="card tech-group rv"><h4>Маркетплейсы и e-com</h4><div class="pill-wrap"><span class="pill">Wildberries</span><span class="pill">Ozon</span><span class="pill">Yandex Маркет</span><span class="pill">СберМегаМаркет</span><span class="pill">Авито</span><span class="pill">Shopify</span><span class="pill">WooCommerce</span><span class="pill">OpenCart</span><span class="pill">InSales</span></div></div>
+        <div class="card tech-group rv"><h4>Документооборот и юр.</h4><div class="pill-wrap"><span class="pill">Контур.Диадок</span><span class="pill">СБИС</span><span class="pill">Sign.me</span><span class="pill">КриптоПро</span><span class="pill">DocuSign</span><span class="pill">Госуслуги ЕСИА</span><span class="pill">ОРД (маркировка)</span></div></div>
+        <div class="card tech-group rv"><h4>Карты и геосервисы</h4><div class="pill-wrap"><span class="pill">Яндекс Карты</span><span class="pill">Google Maps</span><span class="pill">2ГИС</span><span class="pill">OpenStreetMap</span><span class="pill">Mapbox</span><span class="pill">Dadata</span></div></div>
+        <div class="card tech-group rv"><h4>SEO, реклама, аналитика</h4><div class="pill-wrap"><span class="pill">Яндекс Директ</span><span class="pill">Google Ads</span><span class="pill">VK Реклама</span><span class="pill">myTarget</span><span class="pill">Яндекс Метрика</span><span class="pill">GA4</span><span class="pill">Яндекс Дзен</span><span class="pill">Ahrefs</span><span class="pill">SemRush</span><span class="pill">Screaming Frog</span><span class="pill">Roistat</span><span class="pill">Calltouch</span><span class="pill">CoMagic</span></div></div>
+        <div class="card tech-group rv"><h4>Email, SMS, push</h4><div class="pill-wrap"><span class="pill">SendPulse</span><span class="pill">Unisender</span><span class="pill">Mailgun</span><span class="pill">SendSay</span><span class="pill">SMSC.ru</span><span class="pill">P1 SMS</span><span class="pill">FCM (Push)</span><span class="pill">Web Push</span></div></div>
+        <div class="card tech-group rv"><h4>Безопасность</h4><div class="pill-wrap"><span class="pill">SSL / TLS</span><span class="pill">WAF Cloudflare</span><span class="pill">ReCaptcha</span><span class="pill">SmartCaptcha</span><span class="pill">OAuth 2.0</span><span class="pill">JWT</span><span class="pill">Vault</span><span class="pill">Sentry</span></div></div>
+      </div>
+
+      <div class="marquee rv" style="margin-top:48px">
+        <div class="marquee-track">
+          <span class="pill">OpenAI GPT-5</span><span class="pill">Claude Opus 4.7</span><span class="pill">YandexGPT</span><span class="pill">GigaChat</span><span class="pill">Higgsfield</span><span class="pill">Sora 2</span><span class="pill">Runway Gen-4</span><span class="pill">Kling 3.0</span><span class="pill">Veo 3</span><span class="pill">Seedance 2.0</span><span class="pill">Pika 2.2</span><span class="pill">Nano Banana Pro</span><span class="pill">Midjourney v7</span><span class="pill">Flux Pro</span><span class="pill">SDXL</span><span class="pill">ElevenLabs</span><span class="pill">SpeechKit</span><span class="pill">Whisper</span><span class="pill">XTTS</span><span class="pill">Next.js</span><span class="pill">React</span><span class="pill">Vue</span><span class="pill">Astro</span><span class="pill">Node.js</span><span class="pill">Python</span><span class="pill">Go</span><span class="pill">Rust</span>
+          <span class="pill">OpenAI GPT-5</span><span class="pill">Claude Opus 4.7</span><span class="pill">YandexGPT</span><span class="pill">GigaChat</span><span class="pill">Higgsfield</span><span class="pill">Sora 2</span><span class="pill">Runway Gen-4</span><span class="pill">Kling 3.0</span><span class="pill">Veo 3</span><span class="pill">Seedance 2.0</span><span class="pill">Pika 2.2</span><span class="pill">Nano Banana Pro</span><span class="pill">Midjourney v7</span><span class="pill">Flux Pro</span><span class="pill">SDXL</span><span class="pill">ElevenLabs</span><span class="pill">SpeechKit</span><span class="pill">Whisper</span><span class="pill">XTTS</span><span class="pill">Next.js</span><span class="pill">React</span><span class="pill">Vue</span><span class="pill">Astro</span><span class="pill">Node.js</span><span class="pill">Python</span><span class="pill">Go</span><span class="pill">Rust</span>
+        </div>
+      </div>
+      <div class="marquee rv" style="margin-top:8px">
+        <div class="marquee-track reverse">
+          <span class="pill">AmoCRM</span><span class="pill">Bitrix24</span><span class="pill">1С</span><span class="pill">Pinecone</span><span class="pill">Qdrant</span><span class="pill">PostgreSQL</span><span class="pill">ClickHouse</span><span class="pill">Redis</span><span class="pill">Docker</span><span class="pill">Kubernetes</span><span class="pill">Yandex Cloud</span><span class="pill">Google Cloud</span><span class="pill">VK Cloud</span><span class="pill">Cloudflare</span><span class="pill">Vercel</span><span class="pill">Wildberries</span><span class="pill">Ozon</span><span class="pill">Яндекс Маркет</span><span class="pill">Telegram Bot API</span><span class="pill">WhatsApp Business</span><span class="pill">Mango ВАТС</span><span class="pill">Asterisk</span><span class="pill">Twilio</span><span class="pill">LangChain</span><span class="pill">LlamaIndex</span><span class="pill">LangGraph</span><span class="pill">MCP</span><span class="pill">Make</span><span class="pill">n8n</span><span class="pill">Zapier</span>
+          <span class="pill">AmoCRM</span><span class="pill">Bitrix24</span><span class="pill">1С</span><span class="pill">Pinecone</span><span class="pill">Qdrant</span><span class="pill">PostgreSQL</span><span class="pill">ClickHouse</span><span class="pill">Redis</span><span class="pill">Docker</span><span class="pill">Kubernetes</span><span class="pill">Yandex Cloud</span><span class="pill">Google Cloud</span><span class="pill">VK Cloud</span><span class="pill">Cloudflare</span><span class="pill">Vercel</span><span class="pill">Wildberries</span><span class="pill">Ozon</span><span class="pill">Яндекс Маркет</span><span class="pill">Telegram Bot API</span><span class="pill">WhatsApp Business</span><span class="pill">Mango ВАТС</span><span class="pill">Asterisk</span><span class="pill">Twilio</span><span class="pill">LangChain</span><span class="pill">LlamaIndex</span><span class="pill">LangGraph</span><span class="pill">MCP</span><span class="pill">Make</span><span class="pill">n8n</span><span class="pill">Zapier</span>
+        </div>
       </div>
     </div>
   </section>

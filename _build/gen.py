@@ -604,6 +604,28 @@ def render_service(s):
         f'<div class="card rv" style="padding:24px"><h3 style="font-size:18px;margin-bottom:8px">{t}</h3><p style="font-size:14.5px;color:var(--text-soft);margin:0">{html.escape(d)}</p></div>'
         for t, d in s["includes"]
     )
+    showcase_video = ""
+    if s.get("video_url"):
+        showcase_video = f'''
+<section class="section-tight">
+  <div class="container">
+    <div class="section-head rv" style="text-align:center;align-items:center;margin-left:auto;margin-right:auto">
+      <span class="eyebrow">Демо в действии</span>
+      <h2>Как это <span class="grad-text">работает</span></h2>
+    </div>
+    <div class="showcase rv">
+      <video autoplay muted loop playsinline preload="metadata" poster="{s.get('image', OG_DEFAULT)}">
+        <source src="{s['video_url']}" type="video/mp4">
+      </video>
+      <div class="showcase-caption">
+        <div>
+          <span class="showcase-tag">{html.escape(s.get('video_tag', 'AI'))}</span>
+          <h3 style="margin-top:14px">{html.escape(s.get('video_title', s['h1']))}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>'''
     pills = "\n".join(f'<span class="pill">{html.escape(t)}</span>' for t in s["tech"])
     faq_html, faq_ld = faq_block("Часто спрашивают", s["faq"])
     svc_ld = service_ld(s["h1"], s["description"], canonical, s.get("image"))
@@ -672,6 +694,8 @@ def render_service(s):
     </div>
   </div>
 </section>
+
+{showcase_video}
 
 {faq_html}
 
