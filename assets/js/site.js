@@ -114,6 +114,63 @@
   // ---------- Year in footer ----------
   document.querySelectorAll('[data-year]').forEach(function(el){ el.textContent = new Date().getFullYear(); });
 
+  // ---------- Cinematic scroll: scrub video timeline + activate scenes ----------
+  var filmScroll = document.querySelector('[data-film-scroll]');
+  if(filmScroll && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    var filmVideo = filmScroll.querySelector('video');
+    var scenes = Array.from(filmScroll.querySelectorAll('.film-scene'));
+    var bar = filmScroll.querySelector('.film-progress-bar');
+    var chips = Array.from(filmScroll.querySelectorAll('.film-chapters span'));
+
+    var ready = false;
+    function readyHandler(){
+      ready = true;
+      try{ filmVideo.pause(); }catch(e){}
+    }
+    if(filmVideo){
+      filmVideo.addEventListener('loadedmetadata', readyHandler);
+      filmVideo.addEventListener('canplay', readyHandler);
+      // Force preload
+      try{ filmVideo.load(); }catch(e){}
+    }
+
+    var ticking = false;
+    function update(){
+      ticking = false;
+      var rect = filmScroll.getBoundingClientRect();
+      var winH = window.innerHeight;
+      var total = rect.height - winH;
+      var passed = Math.min(Math.max(-rect.top, 0), total);
+      var prog = total > 0 ? passed / total : 0;
+
+      // Scrub video
+      if(ready && filmVideo && filmVideo.duration && isFinite(filmVideo.duration)){
+        var t = prog * filmVideo.duration;
+        if(Math.abs(filmVideo.currentTime - t) > 0.04){
+          try{ filmVideo.currentTime = t; }catch(e){}
+        }
+      }
+
+      // Progress bar
+      if(bar) bar.style.width = (prog * 100).toFixed(2) + '%';
+
+      // Activate scene based on progress
+      var n = scenes.length;
+      var idx = Math.min(n - 1, Math.floor(prog * n));
+      scenes.forEach(function(s,i){ s.classList.toggle('active', i === idx); });
+      chips.forEach(function(c,i){ c.classList.toggle('active', i === idx); });
+    }
+    function onScrollFilm(){
+      if(!ticking){
+        requestAnimationFrame(update);
+        ticking = true;
+      }
+    }
+    window.addEventListener('scroll', onScrollFilm, {passive:true});
+    window.addEventListener('resize', onScrollFilm);
+    update();
+  }
+
   // ---------- Cursor glow + mouse parallax + magnetic ----------
   var canHover = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   if(canHover && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
