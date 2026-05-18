@@ -323,6 +323,9 @@ SERVICES = [
         "keywords": "ai видео генерация, 3d видео генерация, заказать ai видео, higgsfield, sora, runway, kling, veo, ai motion дизайн, нейросеть видео, ai ролик",
         "lead": "От идеи до готового ролика — на нейросетях нового поколения. Делаем рекламные креативы, продуктовые видео, motion-графику, виртуальных аватаров и 3D-сцены в 5–10 раз быстрее и дешевле классической съёмки.",
         "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_20260518_075059_a8c2f865-d746-429f-89c8-b20f3947ae8f.png",
+        "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Di09CVa1BatdZIdE0tir1KKUxw/hf_20260518_082107_a588e96c-5e6e-4398-aea3-e78811618c7b.mp4",
+        "video_tag": "AI · Higgsfield · Seedance 2.0 · 1080p",
+        "video_title": "Тот же подход — и для ваших продуктов и брендов",
         "includes": [
             ("🎬 Рекламные ролики", "Креативы для VK, Reels, Shorts, Stories — 5–30 секунд под конкретный оффер и аудиторию."),
             ("📦 Продуктовые видео", "Презентация товара или услуги с анимацией интерфейса, обзор фич, демо-сценарии."),
